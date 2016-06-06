@@ -28,7 +28,7 @@ string GetTime(int h, int m) {
     if (m == 45) {
         return "quarter to " + numbers[h + 1];   
     }
-    return GetTheNumber(m < 30 ? m : 60 - m) + (m == 1 ? " minute" : " minutes") + (m < 30 ? " past "  : " to ") +             numbers[m < 30 ? h : h + 1];    
+    return GetTheNumber(m < 30 ? m : 60 - m) + (m == 1 ? " minute" : " minutes") + (m < 30 ? " past "  : " to ") + numbers[m < 30 ? h : h + 1];    
 }
 int main(){
     int h;
