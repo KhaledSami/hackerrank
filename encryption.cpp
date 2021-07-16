@@ -15,8 +15,6 @@ int main(){
     int cols = rows;
     if (rows * cols < s.size()) {
         cols++;
-    }
-    if (rows * cols < s.size()) {
         rows++;
     }
     string sep = "";
